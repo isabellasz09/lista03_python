@@ -2,8 +2,7 @@
 #caso contrário, exibem a mensagem "Eu não gosto de [cor], eu prefiro vermelho".
 print("Isabella Carolina de Souza")
 corfav=input("Digite sua cor favorita: ")
-vermelho= ("vermelho","VERMELHO","Vermelho")
-if corfav == vermelho :
+if corfav == "Vermelho" or corfav == "vermelho" or corfav == "VERMELHO":
     print("Eu também gosto de vermelho")
-if corfav != vermelho:
-    print("Eu não gosto de , eu prefiro vermelho")
+else:
+    print("Eu não gosto de,",corfav," eu prefiro vermelho")
